@@ -22,7 +22,7 @@ class PostController extends Controller
 
     public function show(Request $request, string $permalink)
     {
-        $post = Post::where('permalink', $permalink)->firstOrFail();
+        $post = Post::with('tags')->where('permalink', $permalink)->firstOrFail();
 
         $data = ['post' => $post];
 

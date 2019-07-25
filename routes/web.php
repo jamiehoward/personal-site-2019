@@ -22,3 +22,5 @@ Route::get('/code', function() {
 Route::get('/design', 'ImageController@index');
 
 Route::get('/blog/{permalink}', 'PostController@show');
+
+Route::get('/tags/{name}', 'TagController@show');
