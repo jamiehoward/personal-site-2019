@@ -7570,6 +7570,31 @@ a:hover { color: #3182ce
   color: #2d3748
 }
 
+#marked > p > a {
+  font-weight: 700
+}
+
+#marked > ol {
+  list-style-position: inside;
+  list-style-type: decimal;
+  padding-left: 0.75rem;
+  padding-bottom: 0.75rem
+}
+
+#marked > h5 {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  color: #718096;
+  border-width: 1px;
+  border-color: #718096;
+  border-left-width: 4px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+}
+
 @media (min-width: 640px) {
   .sm\:appearance-none {
     -webkit-appearance: none;
