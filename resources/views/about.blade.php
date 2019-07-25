@@ -2,31 +2,15 @@
 
 @section('content')
 
-<div class="text-2xl text-gray-700 mb-3">About</div>
-
-<div>
-	<img class="rounded-lg md:float-right md:w-48 md:ml-12 mb-4" src="/img/jamie-howard-profile.jpeg" alt="Jamie Howard profile image">
-	<p class="mb-3">
-	Hey, my name is Jamie. By day, I'm the Director of Development at Orange, where I get to write code that helps kids have a better future. Outside of work, I draw a lot, am starting an organization that enables innovators to do great work, and like to journal about my explorations in learning to take Jesus seriously.
-	<p>
-
-	<div class="text-xl mb-2 text-gray-700">Elsewhere on the Internet</div>
-
-	<ul class="ml-4">
-		<li class="mb-1">
-			<a class="text-blue-700 hover:text-blue-600" href="#">Dribbble</a>
-		</li>
-		<li class="mb-1">
-			<a class="text-blue-700 hover:text-blue-600" href="#">GitHub</a>
-		</li>
-		<li class="mb-1">
-			<a class="text-blue-700 hover:text-blue-600" href="#">Instagram</a>
-		</li>
-		<li class="mb-1">
-			<a class="text-blue-700 hover:text-blue-600" href="#">Twitter</a>
-		</li>
-	</ul>
+<div class="lg:flex">
+	<div class="mb-2 lg:w-1/6 w-full py-3 lg:p-0">
+		<img class="w-1/2 lg:w-full lg:mt-3 mx-auto rounded-full" src="/img/jamie-howard-profile.jpeg" alt="Jamie Howard profile image">
+	</div>
+	
+	<div class="text-center lg:text-left lg:w-2/3 lg:px-6">
+		<div class="heading w-full text-center lg:text-left">About</div>
+		<p class="leading-relaxed">Hey, my name is Jamie. By day, I'm the Director of Development at <a href="http://thinkorange.com" target="_blank">Orange</a>, where I get to write code that helps kids have a better future. Outside of work, <a href="https://instagram.com/jamiehowarddraws" target="_blank">I draw a lot</a>, am starting an <a href="https://morrowmade.com" target="_blank">organization that enables innovators to do great work</a>, and like to <a href="/blog">journal</a> about my explorations in learning to take Jesus seriously.</p>
+	</div>
 </div>
-
 
 @endsection

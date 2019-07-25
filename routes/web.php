@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/blog', 'PostController@index');
+Route::get('/code', function() {
+	return view('code');
+});
+Route::get('/design', 'PictureController@index');
