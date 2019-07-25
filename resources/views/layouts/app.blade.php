@@ -8,7 +8,7 @@
 	<div class="container w-2/3 mx-auto p-4">
 
 		<div class="text-center lg:text-left">
-			<div class="text-4xl inline text-gray-800 font-bold">Jamie Howard</div>
+			<div class="text-4xl inline jamie text-gray-800">Jamie Howard</div>
 			<div class="text-xl lg:inline lg:px-2 text-gray-600">
 				Jesus-follower. Serial generalist.
 			</div>

@@ -15,7 +15,7 @@
 		</p>
 
 		<div class="bg-gray-200 py-4 text-center">
-			Want to chat?
+			<span class="font-bold text-gray-600 pr-1">Want to chat?</span>
 			<a href="https://twitter.com/messages/compose?recipient_id=14348689&text=Hey+there!" target="_blank">Hit me up on Twitter!</a>
 		</div>
 	</div>
