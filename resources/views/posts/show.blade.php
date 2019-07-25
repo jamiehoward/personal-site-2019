@@ -14,7 +14,7 @@
 
 </div>
 
-<p class="leading-relaxed text-left mb-4">{{$post->content}}</p>
+<p id="marked" class="leading-relaxed text-left mb-4">{!! $post->content !!}</p>
 
 <div class="text-right">
 @foreach($post->tags as $tag)
@@ -23,5 +23,10 @@
 	</a>
 @endforeach
 </div>
+@endsection
 
+@section('scripts')
+<script>
+    document.getElementById('marked').innerHTML = md.render(document.getElementById('marked').innerHTML);
+</script>
 @endsection
