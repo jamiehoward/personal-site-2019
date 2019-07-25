@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Image;
 use Illuminate\Http\Request;
 
-class PictureController extends Controller
+class ImageController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,16 +14,9 @@ class PictureController extends Controller
      */
     public function index()
     {
-        $data = ['pictures' => [
-            ['url' => '#', 'src' => 'https://scontent-atl3-1.cdninstagram.com/vp/f33c5864bf9193baa9d841d150592766/5DE24F9B/t51.2885-15/e35/39381485_474464569719262_8419819630419247104_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com'],
-            ['url' => '#', 'src' => 'https://cdn.dribbble.com/users/40032/screenshots/5815551/ship-interior-dribbble.png'],
-            ['url' => '#', 'src' => 'https://cdn.dribbble.com/users/40032/screenshots/4724994/polaris-away-dribbble.png'],
-            ['url' => '#', 'src' => 'https://scontent-atl3-1.cdninstagram.com/vp/f33c5864bf9193baa9d841d150592766/5DE24F9B/t51.2885-15/e35/39381485_474464569719262_8419819630419247104_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com'],
-            ['url' => '#', 'src' => 'https://cdn.dribbble.com/users/40032/screenshots/5815551/ship-interior-dribbble.png'],
-            ['url' => '#', 'src' => 'https://cdn.dribbble.com/users/40032/screenshots/4724994/polaris-away-dribbble.png'],
-        ]];
+        $data = ['images' => Image::get()];
 
-        return view('pictures.index', $data);
+        return view('images.index', $data);
     }
 
     /**

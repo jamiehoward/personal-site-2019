@@ -9,10 +9,10 @@
 </div>
 
 <div class="flex flex-wrap text-center">
-	@foreach($pictures as $picture)
-		<div class="w-1/3 h-64 px-2 mb-2">
-			<a href="{{$picture['url']}}" class="" target="_blank">
-				<img class="rounded object-cover h-64 w-full" src="{{$picture['src']}}" />
+	@foreach($images as $image)
+		<div class="w-1/3 h-64 px-2 mb-4">
+			<a href="{{$image->link}}" class="" target="_blank">
+				<img class="rounded object-cover h-64 w-full" title="{{$image->caption}}" src="{{$image->src}}" />
 			</a>
 		</div>
 	@endforeach

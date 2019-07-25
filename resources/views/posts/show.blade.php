@@ -7,8 +7,8 @@
 	<div class="mb-4">
 		<div class="heading w-full text-center lg:text-left">{{$post->title}}</div>
 
-		<p class="text-gray-600 text-xs relative lg:-mt-2">
-			Published on {{$post->created_at->format('d F Y ')}}
+		<p class="text-gray-600 text-xs relative lg:-mt-2" title="{{$post->created_at}}">
+			Published on {{$post->created_at->format('d F Y')}}
 		</p>
 	</div>
 
