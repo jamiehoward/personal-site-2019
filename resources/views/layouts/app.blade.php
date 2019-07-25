@@ -2,7 +2,7 @@
 <html lang="en" class="text-gray-900 antialiased leading-tight">
 <head>
 	<title>{{config('app.name')}}</title>
-	<link href="./css/main.css" rel="stylesheet" />
+	<link href="/css/main.css" rel="stylesheet" />
 </head>
 <body class="min-h-screen bg-gray-100">
 	<div class="container w-2/3 mx-auto p-4">

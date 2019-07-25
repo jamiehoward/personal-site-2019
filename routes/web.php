@@ -20,3 +20,5 @@ Route::get('/code', function() {
 	return view('code');
 });
 Route::get('/design', 'PictureController@index');
+
+Route::get('/blog/{permalink}', 'PostController@show');

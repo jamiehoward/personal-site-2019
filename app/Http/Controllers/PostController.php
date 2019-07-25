@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Post;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 
 class PostController extends Controller
@@ -13,14 +15,17 @@ class PostController extends Controller
      */
     public function index()
     {
-        $data = ['posts' => [
-            ["date" => "2019 Apr 15", "title" => "Jesus Wept"],
-            ["date" => "2018 Sep 01", "title" => "Macro-focus"],
-            ["date" => "2018 Feb 28", "title" => "Life as a Serial Generalist"],
-            ["date" => "2018 Feb 27", "title" => "Why a new blog?"],
-            ["date" => "2015 Dec 10", "title" => "Sometimes I Doubt"],
-        ]];
+        $data = ['posts' => Post::get()];
 
         return view('posts.index', $data);
+    }
+
+    public function show(Request $request, string $permalink)
+    {
+        $post = Post::where('permalink', $permalink)->firstOrFail();
+
+        $data = ['post' => $post];
+
+        return view('posts.show', $data);
     }
 }
