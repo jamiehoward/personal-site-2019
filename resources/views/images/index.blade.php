@@ -4,8 +4,8 @@
 
 <div class="heading text-center">Design</div>
 
-<div class="mb-4 mx-auto text-center">
-	<p>I give much of my spare time to design and illustration. In fact, my wife and I are working on children's book right now called <a href="http://thepolarisaway.com" target="_blank" class="italic">The Polaris-Away</a>! For other recent work, find me on <a href="//instagram.com/jamiehowarddraws" target="_blank">Instagram</a> and <a href="//dribbble.com/jamiehoward" target="_blank">Dribbble</a>:</p>
+<div class="mb-6 mx-auto text-center w-1/2">
+	<p class="leading-normal">I give much of my spare time to design and illustration. In fact, my wife and I are working on children's book right now called <a href="http://thepolarisaway.com" target="_blank" class="italic">The Polaris-Away</a>! For other recent work, find me on <a href="//instagram.com/jamiehowarddraws" target="_blank">Instagram</a> and <a href="//dribbble.com/jamiehoward" target="_blank">Dribbble</a>:</p>
 </div>
 
 <div class="flex flex-wrap text-center">
