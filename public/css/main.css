@@ -7568,7 +7568,7 @@ a:hover { color: #3182ce
   font-size: 1.5rem;
   color: #718096;
   font-weight: 700;
-  margin-bottom: 0.5rem
+  margin-bottom: 1.5rem
 }
 
 #marked > p {
@@ -7599,6 +7599,10 @@ a:hover { color: #3182ce
   border-top-width: 0;
   border-right-width: 0;
   border-bottom-width: 0;
+}
+
+p {
+  line-height: 1.625
 }
 
 @media (min-width: 640px){

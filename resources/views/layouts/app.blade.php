@@ -15,7 +15,7 @@
 			</div>
 		</div>
 
-		<div class="mb-3 md:mb-4 text-center lg:text-left">
+		<div class="mb-4 text-center lg:text-left">
 			<div class="inline-block text-blue-700 text-center pr-4 py-2">
 				<a class="hover:text-blue-600" href="/">about</a>
 			</div>
