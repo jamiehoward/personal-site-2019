@@ -3,13 +3,14 @@
 <head>
 	<title>{{config('app.name')}}</title>
 	<link href="/css/main.css" rel="stylesheet" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="min-h-screen bg-gray-100">
-	<div class="container w-2/3 mx-auto p-4">
+	<div class="container w-3/4 lg:2/3 mx-auto p-4">
 
 		<div class="text-center lg:text-left">
 			<div class="text-4xl inline jamie text-gray-800">Jamie Howard</div>
-			<div class="text-xl lg:inline lg:px-2 text-gray-600">
+			<div class="text-md md:text-xl lg:inline lg:px-2 text-gray-600">
 				Jesus-follower. Serial generalist.
 			</div>
 		</div>
