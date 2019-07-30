@@ -35,7 +35,7 @@
 
 		@yield('content')
 
-		<footer class="md:flex mt-8 border-t border-solid border-gray-500 w-full pt-4">
+		<footer class="md:flex mt-10 border-t border-solid border-gray-500 w-full pt-4">
 			<div class="text-gray-500 text-sm text-center md:text-left md:w-1/2 mb-3">
 				Copyright Jamie Howard &copy;{{date('Y')}}
 			</div>
