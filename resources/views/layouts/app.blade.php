@@ -6,8 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="min-h-screen bg-gray-100">
+	<div class="w-full text-center p-6 bg-yellow-300">
+    <a href="https://howardadoption.bigcartel.com/product/the-polaris-away" target="_blank">
+    	<strong>The Polaris-Away</strong>, an original kids book about the wonder of adoption, is now available for pre-order!</a>
+    </div>
+	
 	<div class="container w-3/4 lg:2/3 mx-auto p-4">
-
 		<div class="text-center lg:text-left">
 			<div class="text-4xl inline jamie text-gray-800">Jamie Howard</div>
 			<div class="text-md md:text-xl lg:inline lg:px-2 text-gray-600">
